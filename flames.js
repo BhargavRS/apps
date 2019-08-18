@@ -1,6 +1,8 @@
 function myFunction() {
 var var1=document.getElementById("name1").value;
 var var2=document.getElementById("name2").value;
+//var var1=var1a.toUpperCase();
+//var var2-var2a.toUpperCase();
 var n1=var1.length;
 var n2=var2.length;
 var var3="The length of " +var1+" is "+n1+" and the length of "+var2+" is "+n2;
@@ -66,7 +68,7 @@ switch(flames)
 }
 
 var var3="The length of " +var1+" is "+n1+" and the length of "+var2+" is "+n2+" and flames count is "+flamescount+" "+flames;
-var var4=var1.toUpperCase() + " and "+var2.toUpperCase() +" are "+flames;
+var var4=var1.toUpperCase() + " and "+var2.toUpperCase() +" ---> "+flames;
 document.getElementById("demo").innerHTML =var4;
 window.alert(var4);
 
